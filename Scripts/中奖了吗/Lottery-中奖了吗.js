@@ -6,6 +6,8 @@ const w = new ListWidget();
 
 const param = args.widgetParameter;
 
+// 长按桌面小组件 → 编辑“Scriptable” → 参数
+// 输入你买的彩票号码，以英文逗号隔开，双色球前6位为红球，后1位为蓝球
 const myArr = param ? param.split(',').slice(0, 6) : ['02', '05', '13', '18', '25', '26'];
 const myblue = param ? param.split(',').slice(-1)[0] : '18';
 

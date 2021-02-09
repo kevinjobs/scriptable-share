@@ -10,8 +10,8 @@ const imagePath = 'img/';
 // 图标可以在这里下载 https://github.com/qwd/WeatherIcon
 const imagePathByCode = 'img/byCode/';
 
-const baiduMapApiKey = ''; // 填写百度地图公开平台 api
-const qweatherApiKey = ''; // 填写和风天气开发 api
+const baiduMapApiKey = ''; // 填写百度地图公开平台API控制台的 ak
+const qweatherApiKey = ''; // 填写和风天气开发API的 key
 
 const locationFromDevice = await Location.current();
 const locationArr = [locationFromDevice.longitude, locationFromDevice.latitude];
